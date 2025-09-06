@@ -16,30 +16,21 @@
 
 #### Concepts Covered
 - Database & Table Creation 
-
 - Data Filtering (WHERE, LIKE, IN, BETWEEN) 
-
 - Aggregation & Grouping (GROUP BY, HAVING) 
-
 - Joining Tables (INNER JOIN, LEFT JOIN) 
-
-- Window Functions (ROW_NUMBER(), RANK(), DENSE_RANK()) 
-
+- Window Functions (ROW_NUMBER(), RANK(), DENSE_RANK())
+- Date Functions (str_to_date, year, month)
 - Conditional Formatting (CASE...WHEN, IF...ELSE)
 
 #### New concept that i learned about through this project :-
 - how to create regexp expresssion for the certain pattern match that we can not perform through wildcard operators in mysql 
-
 - REGEXP_SUBSTR(expression, pattern [, position [, occurrence [, match_type]]])
 
 - expression → The string/column to search in (example: country column).
-  
 - pattern → The regular expression pattern to match (example: '[^,]+').
-  
 - position (optional) → Where to start searching (default = 1). 
-
 - occurrence (optional) → Which match to return (1st, 2nd, etc.).
-
 - match_type (optional) → Matching behavior (like case sensitivity, multi-line).
 
 #### 1. Count the number of Movies vs TV Shows
