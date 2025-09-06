@@ -14,6 +14,19 @@
 - Explore actor popularity and genre preferences
 - Categorize content based on description keywords
 
+#### Concepts Covered
+- Database & Table Creation 
+
+- Data Filtering (WHERE, LIKE, IN, BETWEEN) 
+
+- Aggregation & Grouping (GROUP BY, HAVING) 
+
+- Joining Tables (INNER JOIN, LEFT JOIN) 
+
+- Window Functions (ROW_NUMBER(), RANK(), DENSE_RANK()) 
+
+- Conditional Formatting (CASE...WHEN, IF...ELSE)
+
 #### New concept that i learned about through this project :-
 - how to create regexp expresssion for the certain pattern match that we can not perform through wildcard operators in mysql 
 
