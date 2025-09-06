@@ -32,8 +32,10 @@
 
 - REGEXP_SUBSTR(expression, pattern [, position [, occurrence [, match_type]]])
 
-- Parameters: expression → The string/column to search in (example: country column).
-- pattern → The regular expression pattern to match (example: '[^,]+'). 
+- expression → The string/column to search in (example: country column).
+  
+- pattern → The regular expression pattern to match (example: '[^,]+').
+  
 - position (optional) → Where to start searching (default = 1). 
 
 - occurrence (optional) → Which match to return (1st, 2nd, etc.).
