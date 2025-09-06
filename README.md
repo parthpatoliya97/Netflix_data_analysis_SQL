@@ -2,6 +2,31 @@
 
 ![netflix image](https://miro.medium.com/0*mU6H5xdRepR0yCcp)
 
+
+- This project analyzes Netflix's content catalog to understand viewer preferences, content distribution patterns, and popularity trends across different countries and genres. Using SQL, I explored what types of content (movies vs. TV shows) dominate the platform, which ratings are most common, and how content production has evolved over time.
+
+#### Key Objectives :-
+- Analyze the distribution of Movies vs. TV Shows
+- Identify the most common content ratings by type
+- Find the longest movies and TV shows with most seasons
+- Discover top content-producing countries
+- Analyze content addition trends over time
+- Explore actor popularity and genre preferences
+- Categorize content based on description keywords
+
+#### New concept that i learned about through this project :-
+- how to create regexp expresssion for the certain pattern match that we can not perform through wildcard operators in mysql 
+
+- REGEXP_SUBSTR(expression, pattern [, position [, occurrence [, match_type]]])
+
+- Parameters: expression → The string/column to search in (example: country column).
+- pattern → The regular expression pattern to match (example: '[^,]+'). 
+- position (optional) → Where to start searching (default = 1). 
+
+- occurrence (optional) → Which match to return (1st, 2nd, etc.).
+
+- match_type (optional) → Matching behavior (like case sensitivity, multi-line).
+
 #### 1. Count the number of Movies vs TV Shows
 ```sql
 SELECT 
