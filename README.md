@@ -14,7 +14,7 @@
 - Explore actor popularity and genre preferences
 - Categorize content based on description keywords
 
-#### Concepts Covered
+#### Concepts Covered :-
 - Database & Table Creation 
 - Data Filtering (WHERE, LIKE, IN, BETWEEN) 
 - Aggregation & Grouping (GROUP BY, HAVING) 
@@ -24,7 +24,8 @@
 - Conditional Formatting (CASE...WHEN, IF...ELSE)
 
 #### New concept that i learned about through this project :-
-- how to create regexp expresssion for the certain pattern match that we can not perform through wildcard operators in mysql 
+- how to create regexp expresssion for the certain pattern match that we can not perform through wildcard operators in mysql
+  
 - REGEXP_SUBSTR(expression, pattern [, position [, occurrence [, match_type]]])
 
 - expression → The string/column to search in (example: country column).
